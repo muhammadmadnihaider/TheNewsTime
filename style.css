@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.row-1 {
+  display: flex;
+  /* text-align: center; */
+}
+.branding {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+}
+
+section div {
+  border: 1px solid black;
+}
+
+.row-1 .element-1,
+.row-1 .element-3 {
+  width: 25%;
+  padding: 5px;
+}
+
+.row-1 .element-2 {
+  padding: 5px 10px;
+  width: 50%;
+}
+
+h2 {
+  text-align: center;
+  font-style: oblique;
+}
+.row-2 {
+  display: flex;
+  width: 100%;
+}
+
+.row-2 .element-2 {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+}
+.row-2 a {
+  /* border: 2px solid black; */
+  flex-grow: 1;
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px;
+  vertical-align: bottom;
+}
+h1 {
+  font-size: 30px;
+}
+
+.row-2 a:hover {
+  text-decoration: underline;
+}
+.Politics {
+  background-color: #ffeaa7;
+}
+.Technology {
+  background-color: #81ecec;
+}
+.Local {
+  background-color: #55efc4;
+}
+.Opinion {
+  background-color: #74b9ff;
+}
+.Sports {
+  background-color: #a29bfe;
+}
+.row-2 .element-1 {
+  width: 25%;
+  padding: 5px;
+}
